@@ -1,0 +1,162 @@
+h1, h2, .h1, .h2, .h3, .h4, .h5, .h6, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.topBar {
+    border-top: 1.7em solid #35647e;
+    background-color: #eeeff1;
+}
+
+.topBar .fa {
+    color: #00a38a;
+}
+
+.logo {
+    color: #1b3f95;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+h1 {
+    color: #778C9B;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+}
+
+h2 {
+    color: #1b3f95;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.offers {
+    border: .15em solid #000;
+    cursor: pointer;
+}
+
+.offers:hover {
+    -webkit-animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.7s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+/* All Mobile Devices */
+
+@media screen and (max-width: 37.9375em) {
+    .padding-1 {
+        padding: .5rem;
+    }
+    .h2, h2 {
+        font-size: 1rem;
+    }
+    .topBar {
+        border-top: .7em solid #35647e;
+    }
+    .logo {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+}
+
+/*   iPads Portrait */
+
+@media only screen and (min-width: 760px) and (max-width: 775px) {}
+
+/* Nexus Portrait */
+
+@media only screen and (min-width: 776px) and (max-width: 984px) {}
+
+/*   iPads Landscape */
+
+@media only screen and (min-width: 776px) and (max-width: 1024px) {}
+
+/* latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Thin'), local('Roboto-Thin'), url(../_static/_global/_supload/fonts/Roboto-Thin.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'), url(../_static/_global/_supload/fonts/Roboto-Light.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(../_static/_global/_supload/fonts/Roboto-Regular.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(../_static/_global/_supload/fonts/Roboto-Medium.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(../_static/_global/_supload/fonts/Roboto-Bold.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'), url(../_static/_global/_supload/fonts/Roboto-Black.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
